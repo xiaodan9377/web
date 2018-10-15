@@ -4,7 +4,11 @@
 body {
 /* background: #242D36 url(images/background.jpg) no-repeat 0 180px; */
     /* width: 1200px; */
+<<<<<<< HEAD
     background: #C4DFE6; /* #ABD3CA; #C4DFE6 */
+=======
+    background: #F5FBE6;
+>>>>>>> 92d3f6827663b5493e3e8d5b31224dd48b23d392
     line-height: 1.4;
     left: 0px;
     font-family: Georgia, Times, "Times New Roman", serif; /*Verdana,Helvetica, Arial, sans-serif;*/
