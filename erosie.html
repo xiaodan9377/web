@@ -46,6 +46,24 @@
 
 </script></customhtml>	<script type="text/javascript" src="/_js/jquery.masonry.js"></script>
 
+    
+    
+<style>
+.max{width:100%;height:auto;}
+.min{width:300px;height:auto;}
+</style>
+
+<script>
+	$(function(){
+$('#img').click(function(){
+
+$(this).toggleClass('min');
+$(this).toggleClass('max');
+});
+});
+</script>
+    
+    
     <!--<div class="header_img" ><img src="https://media.cargocollective.com/1/6/208500/headerimg/jeroenerosie_header.jpg" height="134" width="200"></div><img src="/_gfx/loadingAnim.gif" id="nav_loadspin">-->
     
     
@@ -61,7 +79,7 @@
             
             <div class="project_thumb" id="item_13518573" name="13518573" page="1" spot="-1">
                 <div id="pr_contain_item_13518573">
-                    <div class="cardimgcrop " id="cardthumb_13518573" name=""><img src="https://github.com/xiaodan9377/xiaodan9377.github.io/blob/master/files/urban-theme/Images/im3.jpg?raw=true" border="0" width="200" height="150"></div><!--width="200" height="112.5"-->
+                    <div class="cardimgcrop " id="cardthumb_13518573" name=""><img id='img' class='min' src="https://github.com/xiaodan9377/xiaodan9377.github.io/blob/master/files/urban-theme/Images/im3.jpg?raw=true" border="0" width="200" height="150"></div><!--width="200" height="112.5"-->
                     <div class="thumb_title notag"><span class="text">Bruce Island</span>&nbsp;</div>
                 </div>
             </div>
